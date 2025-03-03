@@ -3,3 +3,5 @@ difference(A,B,Diff):-Diff is A-B.
 multiplication(A,B,Product):-Product is A*B.
 division(A,B,Quotient):-Quotient is A / B.
 modulo(A,B,Mod):-Mod is A mod B.
+squareroot(A,SquareRoot):-SquareRoot is sqrt(A).
+power(A,B,Power):-Power is A**B.
