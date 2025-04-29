@@ -1,4 +1,6 @@
 % Action rules (transitions between states)
+%state(MonkeyPos, MonkeyState, BoxPos, BananaState)
+
 
 % Grasp banana
 act(state(middle, onbox, middle, hasnot), grasp, state(middle, onbox, middle, has)).
